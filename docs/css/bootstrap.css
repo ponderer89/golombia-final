@@ -4689,6 +4689,8 @@ body{
 
 }
 
+
+
 .rubrik-container{
   padding:50px;
   border:3px solid #333333;
@@ -4735,12 +4737,7 @@ body{
     width: 90vw;
   }
 }
-@media (min-width: 768px) {
-.website-wrapper{
-    margin-top: 60px;
-     
 
-}}
 @media (max-width: 768px) {
 .website-wrapper {
 padding:0;
@@ -4929,7 +4926,7 @@ padding:20px;
 
 @media (max-width: 767px) {
   .player{
-  border:none;
+
 }
 
 .player-menu{
@@ -4972,10 +4969,12 @@ padding:20px;
     position: relative;
     z-index: 45;
     text-align: center;
+        height: 100%;
 }
 .modal-container-absolute{
   position: absolute;
       width: 100%;
+          height: 100%;
 }
 
 @media (max-width: 768px) {
