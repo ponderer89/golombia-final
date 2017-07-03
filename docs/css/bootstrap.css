@@ -4822,6 +4822,7 @@ padding:20px;
     z-index: 234234;
        bottom: 0;
         background-color: white;
+            bottom: 2.5vh;
 }
 
 @media (max-width: 767px) {
@@ -4837,7 +4838,7 @@ padding:20px;
     height: 60px;
     display: flex;
     align-items: center;
-   
+       border: 3px solid #e94b4d;
 }
 
 .track-info-box{
