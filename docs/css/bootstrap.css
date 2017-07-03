@@ -5396,10 +5396,13 @@ text-shadow: 1px 1px #1efff8, 2px 2px #54fffa, 3px 3px #76f0ee, 4px 4px #90f0ed,
 
 
 }
-@media (min-width: 768px){
 .img-invert:hover {
     mix-blend-mode: initial;
     filter: contrast(1) brightness(1);
+    }
+@media (min-width: 768px){
+.img-invert:hover {
+
     transform:scale(1.2);
     position:absolute;
     z-index: 234;
@@ -5439,4 +5442,8 @@ text-shadow: 1px 1px #1efff8, 2px 2px #54fffa, 3px 3px #76f0ee, 4px 4px #90f0ed,
    
       max-height: 100px;
     width: 100%;
-}}
+}
+.last-mobile{
+  display: none;
+}
+}
