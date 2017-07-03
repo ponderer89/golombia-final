@@ -5222,6 +5222,8 @@ background-color: #000000;
     left: 20px;
     position: relative;
         letter-spacing: -2px;
+            color: #e74d4f;
+    text-shadow: 5px 5px rgba(0, 0, 0, 0.1);
 }
 .show-location{
   padding-top: 30px;
