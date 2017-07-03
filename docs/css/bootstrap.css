@@ -5392,13 +5392,34 @@ text-shadow: 1px 1px #1efff8, 2px 2px #54fffa, 3px 3px #76f0ee, 4px 4px #90f0ed,
 .img-invert {
     mix-blend-mode: luminosity;
     filter: contrast(0.2) brightness(1.6);
+    transition: 0.2s ease-out;
+
+
 }
 .img-invert:hover {
     mix-blend-mode: initial;
     filter: contrast(1) brightness(1);
-}
+    transform:scale(1.2);
+    position:absolute;
+    z-index: 234;
+
+  }
 .gallery-background{
         background-color: #ff5254;
     height: 250px;
     width: 100%;
+}
+
+.img-view {
+  
+    mix-blend-mode: inherit;
+    top: 0;
+    position: fixed!important;
+    z-index: 23423;
+    left: 0px;
+    object-fit: contain;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
 }
