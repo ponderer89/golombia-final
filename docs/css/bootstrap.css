@@ -5027,6 +5027,14 @@ top:-24px;
     z-index: 45;
     text-align: center;
         height: 100%;
+opacity: 0;
+    transition: opacity 1s ease-in;
+}
+
+
+
+.load-fade {
+    opacity: 1;
 }
 .modal-container-absolute{
   position: absolute;
@@ -5067,7 +5075,7 @@ top:-24px;
 }
 
 .modal-content{
-    background-color: #ffb3b3;
+    background-color: #ffffff;
     border: 3px solid #333333;
     font-family: nextexitfot-regular;
     font-size: 22px;
@@ -5089,9 +5097,10 @@ text-decoration: none;
     box-shadow: 5px 5px rgba(0, 0, 0, 0.34); 
 }
 .modal-header{
-      background-color: #ffd9d9;
+      background-color: #ff5254;
     border-bottom: 3px solid #333333;
     padding: 15px 15px 10px 15px;
+    color:#fff;
 
 }
 
@@ -5105,7 +5114,7 @@ text-decoration: none;
 
 
 .modal-body{
-        height: auto;
+        height: 340px;
     overflow: scroll;
     overflow-x: hidden;
 direction:ltr; 
@@ -5122,7 +5131,7 @@ direction:ltr;
 
 #modal-scroll::-webkit-scrollbar-track
 {
-      background-color: #ffb3b3;
+      background-color: #fff;
     border-left: solid 3px #333333;
 }
 
@@ -5134,7 +5143,7 @@ direction:ltr;
 
 #modal-scroll::-webkit-scrollbar-thumb
 {
-background-color: #000000;
+background-color: #333;
 }
 
 
@@ -5224,8 +5233,7 @@ background-color: #000000;
     position: relative;
         letter-spacing: -2px;
             color: #ff5254;
-    text-shadow: 1px 1px #14b5b0, 2px 2px #14b5b0, 3px 3px #14b5b0, 4px 4px #14b5b0, 5px 5px #14b5b0, 6px 6px #14b5b0;
-}
+text-shadow: 1px 1px #1efff8, 2px 2px #54fffa, 3px 3px #76f0ee, 4px 4px #90f0ed, 5px 5px #b4edec, 6px 6px #86d6d5;}
 .show-location{
   padding-top: 30px;
     padding-bottom: 30px;
@@ -5240,14 +5248,15 @@ background-color: #000000;
     font-family: nextexitfot-regular;
     font-size: 21px;
     display: block;
-    line-height: 19px;
+    line-height: 18px;
     margin-bottom: 15px;
 }
 
 .show-info-text{
-  font-family: nextexitfot-light;
-    font-size: 21px;
-    line-height: 19px;
+    font-family: nextexitfot-light;
+    font-size: 18px;
+    line-height: 16px;
+    font-weight: 600;
 }
 
 
@@ -5272,30 +5281,37 @@ background-color: #000000;
   height:80vh;
 }
 .artist-images img{
-  height:100%;
-  width:auto;
-  left: 0;
+    max-height: 100%;
+    max-width: 200%;
+    left: 0;
     position: absolute;
+    overflow: hidden;
 }
 
 
 
     .artist-img-li ul{
 
-
     font-family: nextexitfot-regular;
     font-size: 50px;
-    list-style: none;
+    list-style-type: decimal-leading-zero;
+        padding-right: 70px;
     }
+      @media (max-width: 767px){
+    .artist-img-li ul{
 
+  
+        padding-right: 20px;
+        font-size: 35px
+    }}
      .artist-img-li a{
         color: #ff5254;
-    text-shadow: 1px 1px #333, 2px 2px #333, 3px 3px #333, 4px 4px #333;
+    padding-right: 50px;
        text-decoration: underline;
     }
   
          .artist-img-li a:hover{
-          color:#14b5b0;
+          color:#333;
 
     }
 
@@ -5304,3 +5320,85 @@ background-color: #000000;
         display:none;
       }
     }
+
+
+
+
+
+
+/** gallery*/
+
+.gallery-title
+{
+    font-size: 36px;
+    color: #42B32F;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 70px;
+}
+.gallery-title:after {
+    content: "";
+    position: absolute;
+    width: 7.5%;
+    left: 46.5%;
+    height: 45px;
+    border-bottom: 1px solid #5e5e5e;
+}
+.filter-button
+{
+    font-size: 18px;
+    border: 1px solid #42B32F;
+    border-radius: 5px;
+    text-align: center;
+    color: #42B32F;
+    margin-bottom: 30px;
+
+}
+.filter-button:hover
+{
+    font-size: 18px;
+    border: 1px solid #42B32F;
+    border-radius: 5px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #42B32F;
+
+}
+.btn-default:active .filter-button:active
+{
+    background-color: #42B32F;
+    color: white;
+}
+
+.port-image
+{
+    width: 100%;
+}
+
+.gallery_product
+{
+    margin-bottom: 30px;
+}
+
+
+.img-responsive{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+
+.img-invert {
+    mix-blend-mode: luminosity;
+    filter: contrast(0.2) brightness(1.6);
+}
+.img-invert:hover {
+    mix-blend-mode: initial;
+    filter: contrast(1) brightness(1);
+}
+.gallery-background{
+        background-color: #ff5254;
+    height: 250px;
+    width: 100%;
+}
