@@ -486,7 +486,7 @@
   <div class="second-intro">
     
 <span class="second-intro-text">
-ההופעה הבאה</span>
+אומני הלייבל</span>
 <div class="intro-arrow">
   
 
@@ -501,6 +501,62 @@
 <div class="second-content">
   <div class="row">
    
+  
+
+
+
+
+
+
+
+
+
+<div class="artist-img-li col-md-6">
+<ul>
+<li> <a  data-artist-img="1" href="https://betenbeten.bandcamp.com/" target="_blank">בטן</a></li>
+<li> <a data-artist-img="2" href="https://www.youtube.com/channel/UCR2TnMBP3sR2cm9pFSRvTvA" target="_blank">מינוס אפס</a></li>
+<li> <a data-artist-img="3" href="https://yonatangoldman.bandcamp.com/releases" target="_blank">יונתן גולדמן</a></li>
+<li> <a data-artist-img="4" href="https://www.youtube.com/channel/UCeDOFd4heMdDkGq6Kg_xjzA" target="_blank">GTV</a></li>
+<li> <a data-artist-img="5" href="https://www.youtube.com/watch?v=jWpnL2Dx6lk" target="_blank">אליגטור</a></li>
+<li> <a  data-artist-img="6" href="https://yafohabankim.bandcamp.com/releases" target="_blank">יפו הבנקים</a></li>
+</ul>
+
+
+
+</div>
+
+<div class="artist-images col-md-6">
+
+
+
+
+    <img class="artist-img-tag1" style="display:none;" src="images/third/artist-img/artist-1.jpg">
+    <img class="artist-img-tag2" style="display:none;" src="images/third/artist-img/artist-2.jpg">
+    <img class="artist-img-tag3" style="display:none;" src="images/third/artist-img/artist-3.jpg">
+    <img class="artist-img-tag4" style="display:none;" src="images/third/artist-img/artist-4.jpg">
+    <img class="artist-img-tag5" style="display:none;" src="images/third/artist-img/artist-5.jpg">
+    <img class="artist-img-tag6" style="display:none;" src="images/third/artist-img/artist-6.jpg">
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   </div>
 
@@ -514,7 +570,7 @@
 </div>
 
 <div class="website-container facebook-event-link">
-  לעמוד האירוע בפייסבוק >
+  להרשמת גרופיות >
 </div>
 
 
@@ -617,6 +673,19 @@
         $(window).on('load', function() {
             $('#modal-pageload').modal('show');
         });
+
+
+
+        $(document).ready(function(){
+    $('.artist-img-li a').on('mouseenter', function(evt){
+      var artistNum = $(this).attr("data-artist-img");
+   
+        $('.artist-img-tag'+artistNum).show();
+        $(this).on('mouseleave', function(){
+            $('.artist-img-tag'+artistNum).hide();
+        });
+    });
+});
     </script>
 </body>
 
