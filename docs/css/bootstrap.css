@@ -4691,7 +4691,7 @@ body{
 
 .rubrik-container{
   padding:50px;
-  border:3px solid black;
+  border:3px solid #333333;
       background-color: white;
 }
 
@@ -4773,16 +4773,13 @@ padding:0;
     height: 100vh;
     width: 100vw;
 
-border:3px solid black;
+border:3px solid #333333;
 
 }
 .big-logo{
-    width: 200px;
-    background-color: #e94b4d;
-    padding: 7px;
-    top: -66px;
+width: 200px;
+    padding: 11px;
     position: relative;
-    border: black solid 3px;
 
 
 }
@@ -4799,7 +4796,7 @@ border:3px solid black;
   overflow: hidden;
   text-align:center;
 padding:20px;
-      background-color: #ffb3b3;
+      background-color: white;
 
 }
 
@@ -4821,8 +4818,9 @@ padding:20px;
   position:fixed;
     z-index: 234234;
        bottom: 0;
-        background-color: white;
-            bottom: 2.5vh;
+     
+           
+                padding: 35px;
 }
 
 @media (max-width: 767px) {
@@ -4838,7 +4836,8 @@ padding:20px;
     height: 60px;
     display: flex;
     align-items: center;
-       border: 3px solid #e94b4d;
+       border: 3px solid #333333;
+          background-color: white;
 }
 
 .track-info-box{
@@ -4855,7 +4854,7 @@ padding:20px;
 }
 .progress-cell{
   height: inherit;
-  background-color: black;
+  background-color: #333333;
 }
 .progress{
   height: inherit;
@@ -4969,8 +4968,17 @@ padding:20px;
       font-weight: normal;
         
 }
-
-
+.modal-dialog2{
+      width: 325px;
+    margin: auto;
+    position: relative;
+    z-index: 45;
+    text-align: center;
+}
+.modal-container-absolute{
+  position: absolute;
+      width: 100%;
+}
 
 @media (max-width: 768px) {
  .modal-dialog  {
@@ -4984,7 +4992,7 @@ padding:20px;
    margin:70px auto;
   }
     .modal-dialog2  {
-    width: 325px;
+    width: 450px;
    margin:auto;
   }
 }
@@ -5006,14 +5014,14 @@ padding:20px;
 
 .modal-content{
     background-color: #ffb3b3;
-    border: 3px solid black;
+    border: 3px solid #333333;
     font-family: nextexitfot-regular;
     font-size: 22px;
-    color: black!important;
+    color: #333333!important;
 
 }
 .modal-content a{
-  color: black;
+  color: #333333;
 }
 .modal-content a:hover{
 text-decoration: none;
@@ -5023,10 +5031,19 @@ text-decoration: none;
 }
 .modal-header{
       background-color: #ffd9d9;
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid #333333;
     padding: 15px 15px 10px 15px;
 
 }
+
+
+.modal-header2{
+        background-color: #e74d4f;
+    border-bottom: 3px solid #333333;
+    padding: 15px 15px 10px 15px;
+}
+
+
 
 .modal-body{
         height: auto;
@@ -5047,7 +5064,7 @@ direction:ltr;
 #modal-scroll::-webkit-scrollbar-track
 {
       background-color: #ffb3b3;
-    border-left: solid 3px black;
+    border-left: solid 3px #333333;
 }
 
 #modal-scroll::-webkit-scrollbar
