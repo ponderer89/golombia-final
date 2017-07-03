@@ -4963,9 +4963,16 @@ padding:20px;
 
 @media (max-width: 767px) {
   .player{
-
+display: block;
 }
-
+  .audio-stat{
+top:-24px;
+}
+.large-toggle-btn {
+   margin-top: 0px;
+ 
+}
+}
 .player-menu{
 
     display:none;
