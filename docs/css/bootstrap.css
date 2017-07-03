@@ -4705,7 +4705,7 @@ body{
 }
 @media (max-width: 768px) {
   .website-container  {
-    width: 100%;
+    width: 90%;
   
   }
   .bg-img{
@@ -4818,9 +4818,7 @@ padding:20px;
   position:fixed;
     z-index: 234234;
        bottom: 0;
-     
-           
-                padding: 35px;
+
 }
 
 @media (max-width: 767px) {
