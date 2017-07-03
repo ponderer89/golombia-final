@@ -5162,7 +5162,8 @@ background-color: #000000;
 /*music player end*/
 
 .second{
-  height:100vh;
+     height: auto;
+    margin-bottom: 10vh;
 }
 
 .second-intro{
@@ -5249,3 +5250,10 @@ background-color: #000000;
     line-height: 19px;
 }
 
+
+.facebook-event-link{
+      font-family: nextexitfot-regular;
+    text-align: left;
+    font-size: 18px;
+    text-decoration: underline;
+}
