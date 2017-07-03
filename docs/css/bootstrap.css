@@ -4960,6 +4960,14 @@ padding:20px;
 .duration-total{
   float:left;
 }
+.audio-stat{
+  font-size:30px;
+
+}
+
+.toggle-btns{
+  font-size:30px;
+}
 
 @media (max-width: 767px) {
   .player{
@@ -4972,13 +4980,17 @@ top:-24px;
    margin-top: 0px;
  
 }
+.track-info-box{
+  text-align: left;
 }
+
 .player-menu{
 
     display:none;
 
 
 }
+
 .audio-stat{
   font-size:20px;
 
@@ -4990,8 +5002,8 @@ top:-24px;
 .progress-box{
       margin-top: 11px;
 }
-}
 
+}
 
 /** playlist modal**/
 
