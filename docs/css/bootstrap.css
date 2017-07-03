@@ -4851,7 +4851,7 @@ padding:20px;
 .music-player{
   position:fixed;
     z-index: 234234;
-       bottom: 0;
+       bottom: 2.5vh;
 
 }
 
@@ -4870,6 +4870,7 @@ padding:20px;
     align-items: center;
        border: 3px solid #333333;
           background-color: white;
+              box-shadow: 5px 5px rgba(0, 0, 0, 0.34);
 }
 
 .track-info-box{
@@ -5183,7 +5184,7 @@ background-color: #000000;
     height: 30px;
     width: 30px;
     background-repeat: no-repeat;
-    margin-top:10px;
+
 }
 
 .date-block{
@@ -5211,7 +5212,7 @@ background-color: #000000;
 }
 
 .show-info{
-      width: 260px;
+      width: 220px;
       padding-top: 70px;
 }
 .show-title{
