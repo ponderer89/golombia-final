@@ -4902,9 +4902,9 @@ padding:20px;
     height: 15px;
 
     position: absolute;
-    top: 14px;
+    top: -4px;
     width: 15px;
-    left:8px;
+    left:14px;
 }
 
 .track-title-text{
