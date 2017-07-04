@@ -5196,7 +5196,21 @@ background-color: #333;
     background-repeat: no-repeat;
 
 }
+@media(max-width:767px){
+  .second-intro-text{
 
+    font-size: 21px;
+
+}
+
+.intro-arrow{
+      background-image: url(../images/downward-arrow.svg);
+    height: 20px;
+    width: 20px;
+    background-repeat: no-repeat;
+
+}
+}
 .date-block{
   display: inline-block;
 
@@ -5221,9 +5235,39 @@ background-color: #333;
     right: 40px;
 }
 
+
+
 .show-info{
       width: 220px;
       padding-top: 70px;
+}
+
+@media (max-width: 767px)
+{
+  .show-info{
+     text-align:center;
+}
+.date-rotate{
+      transform: rotate(-90deg);
+    position: initial;
+}
+.date-block{
+  width: auto;
+}
+.show-pretitle{
+  width: auto;
+  top:0px;
+  right:0px;
+  margin-bottom:40px;
+}
+
+.next-show-text{
+  text-align: center;
+}
+.show-info{
+  padding-top:40px;
+      margin: 0 auto;
+}
 }
 .show-title{
   font-family: nextexitfot-bold;
@@ -5234,6 +5278,18 @@ background-color: #333;
         letter-spacing: -2px;
             color: #ff5254;
 text-shadow: 1px 1px #1efff8, 2px 2px #54fffa, 3px 3px #76f0ee, 4px 4px #90f0ed, 5px 5px #b4edec, 6px 6px #86d6d5;}
+
+
+@media (max-width: 767px)
+{
+ .show-title{
+
+
+    left: 0px; 
+    text-align: center;
+}
+}
+
 .show-location{
   padding-top: 30px;
     padding-bottom: 30px;
@@ -5267,7 +5323,12 @@ text-shadow: 1px 1px #1efff8, 2px 2px #54fffa, 3px 3px #76f0ee, 4px 4px #90f0ed,
     text-decoration: underline;
 }
 
-
+@media (max-width: 767px){
+  .facebook-event-link{
+        margin: 0px;
+    width: 100%;
+  }
+}
 /* artists section*/
 .artist-image-container{
   display:none;
@@ -5391,7 +5452,7 @@ text-shadow: 1px 1px #1efff8, 2px 2px #54fffa, 3px 3px #76f0ee, 4px 4px #90f0ed,
 
 .img-invert {
     mix-blend-mode: luminosity;
-    filter: contrast(0.2) brightness(1.6);
+    filter: contrast(0.3) brightness(1.6);
     transition: 0.2s ease-out;
 
 
