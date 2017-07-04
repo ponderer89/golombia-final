@@ -4831,7 +4831,7 @@ width: 200px;
   text-align:center;
 padding:20px;
       background-color: white;
-
+    line-height: 1.2;
 }
 
 @media (max-width: 767px) {
