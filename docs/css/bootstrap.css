@@ -5304,14 +5304,15 @@ text-shadow: 1px 1px #1efff8, 2px 2px #54fffa, 3px 3px #76f0ee, 4px 4px #90f0ed,
     font-family: nextexitfot-regular;
     font-size: 21px;
     display: block;
-    line-height: 18px;
+    line-height: 19px;
     margin-bottom: 15px;
+    text-decoration: underline;
 }
 
 .show-info-text{
     font-family: nextexitfot-light;
     font-size: 18px;
-    line-height: 16px;
+    line-height: 18px;
     font-weight: 600;
 }
 
